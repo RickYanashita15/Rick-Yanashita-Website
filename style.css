@@ -37,6 +37,34 @@
     height: 10px;
     background-color: white; 
 }
+.horizontaldivider{
+    width: 30px;
+    height: 40px; 
+}
 .h1 {
+    text-align: left;
+}
+.buttonbar {
+    background-color: white; 
+    overflow: hidden; 
+    display: flex; 
+    position: absolute; 
+    justify-content: space-around;
+    padding: 30px 40px 20px 40px; 
+}
+.button{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 18px; 
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.h2 {
     text-align: left;
 }
