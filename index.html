@@ -3,6 +3,7 @@
         <meta name = "viewport" content="width=device-width, initial-scale=1.0">
         <title> Rick Yanashita's Website </title>
         <link rel = "stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <div class="navbar">
@@ -18,12 +19,30 @@
             <div class="divider10"></div>
             <p> Running through firewalls and surfing the cyber sea. </p>
         </div>
-        <div class="buttonbar"> 
-            <button class="button"> Linkedin </button>
-            <div class="horizontaldivider"> </div>
-            <button class="button"> Github </button>
-            <div class="horizontaldivider"> </div>
-            <button class="button"> ryanashita15@gmail.com </button>
+
+        <div class="container">
+            <div class="buttonbar"> 
+    
+                <a class="pillbutton" href="https://www.linkedin.com/in/ryunosuke-rick-yanashita/" target="_blank">
+                    <img src="images/linkedin-logo.webp" alt="Linkedin" width="50" height="50"> Linkedin </a>
+                <div class="horizontaldivider"> </div>
+                <a class="pillbutton" href="https://github.com/RickYanashita15" target="_blank">
+                    <img src="images/github-mark.png" alt="Linkedin" width="30" height="30"> <div class="horizontaldivider2"> </div> Github </a>
+                <div class="horizontaldivider"> </div>
+                <a class="pillbutton" target="_blank" onclick="copyEmail()">
+                    <img src="images/email-logo.png" alt="Linkedin" width="30" height="30"> <div class="horizontaldivider2"> </div>ryanashita15@gmail.com </a>
+            </div>
         </div>
+
+        <div class="divider320"></div>
+
+        <div class="container">
+            <div class="projectsection"> 
+                <p> Projects & Achievements </p>
+            </div>
+        </div>
+
+        
+
     </body>
 </html>
